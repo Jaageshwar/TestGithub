@@ -22,6 +22,7 @@
 		C6A4590F1991F34E00664018 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6A4590D1991F34E00664018 /* InfoPlist.strings */; };
 		C6A459111991F34E00664018 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A459101991F34E00664018 /* GitTestTests.m */; };
 		C6A4591C1991F4CE00664018 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A4591B1991F4CE00664018 /* DataModel.m */; };
+		C6A459201991F62500664018 /* SecondModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A4591F1991F62500664018 /* SecondModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		C6A459101991F34E00664018 /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
 		C6A4591A1991F4CE00664018 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
 		C6A4591B1991F4CE00664018 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		C6A4591E1991F62500664018 /* SecondModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondModel.h; sourceTree = "<group>"; };
+		C6A4591F1991F62500664018 /* SecondModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +123,7 @@
 				C6A458F71991F34E00664018 /* Main.storyboard */,
 				C6A458FA1991F34E00664018 /* ViewController.h */,
 				C6A458FB1991F34E00664018 /* ViewController.m */,
-				C6A4591A1991F4CE00664018 /* DataModel.h */,
-				C6A4591B1991F4CE00664018 /* DataModel.m */,
+				C6A4591D1991F5FB00664018 /* Data Models */,
 				C6A458FD1991F34E00664018 /* Images.xcassets */,
 				C6A458EC1991F34E00664018 /* Supporting Files */,
 			);
@@ -155,6 +157,17 @@
 				C6A4590D1991F34E00664018 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6A4591D1991F5FB00664018 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				C6A4591A1991F4CE00664018 /* DataModel.h */,
+				C6A4591B1991F4CE00664018 /* DataModel.m */,
+				C6A4591E1991F62500664018 /* SecondModel.h */,
+				C6A4591F1991F62500664018 /* SecondModel.m */,
+			);
+			name = "Data Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6A459201991F62500664018 /* SecondModel.m in Sources */,
 				C6A458FC1991F34E00664018 /* ViewController.m in Sources */,
 				C6A4591C1991F4CE00664018 /* DataModel.m in Sources */,
 				C6A458F61991F34E00664018 /* AppDelegate.m in Sources */,
